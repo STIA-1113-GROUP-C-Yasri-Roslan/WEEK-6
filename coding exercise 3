@@ -1,0 +1,51 @@
+package execersis;
+import java.util.Scanner;
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner scanMe = new Scanner (System.in);
+		
+		
+		   int math, sains;
+	        System.out.print("Markah math: ");
+	        math = scanMe.nextInt();
+	        
+	        
+	        System.out.print("Markah sains:");
+	        sains = scanMe.nextInt();
+	        
+	        if ((math > 50) && (sains > 50))
+	            
+	            
+	            System.out.println("Lulus kedua dua subjek");
+	        else if((math < 50) && (sains > 50))
+	            
+	            System.out.println("Lulus s2 sahaja");
+	        
+	        else if ((math > 50) && (sains < 50))
+	            
+	            System.out.println("Lulus s1 sahaja");
+	            
+	            else
+	                System.out.println("Gagal kedua dua subjek");
+	        
+	        
+	        if (math > sains) {
+	            System.out.println("math Lagi senang");
+	        }
+	        else {
+	            System.out.println("sains Lagi senang");
+	            
+	       
+	        }
+	            
+	        
+	        
+	    }
+	}
+
+	
+
+
