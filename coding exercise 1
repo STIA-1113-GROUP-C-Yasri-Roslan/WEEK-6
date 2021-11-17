@@ -1,0 +1,34 @@
+package execersis;
+import java.util.Scanner;
+public class ifelseexercises {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanMe = new Scanner (System.in);
+		
+		System.out.println("Enter math subject");
+		String mathsubject = scanMe.next();
+		
+		System.out.println("Enter math mark : ");
+		int mathmark = scanMe.nextInt();
+		
+		System.out.println("Enter sains mark : ");
+		int sainsmark = scanMe.nextInt();
+		
+		if ((mathmark > 50) && (sainsmark > 50)) {
+			System.out.println("Pass");
+		}
+		
+		else {
+			System.out.println("fail");
+		}
+		
+		if (mathmark > sainsmark) {
+		System.out.println("Math mark more than Sains mark ");
+		}
+		
+		else  {
+			System.out.println("Math mark less than Sains mark");
+		}
+	}
+}
