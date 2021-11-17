@@ -1,0 +1,25 @@
+package execersis;
+
+public class TEST {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double d1 = 2.2 + 4.4 ;
+		double d2 = 6.6;
+		int d3= 2+4;
+		int d4=6;
+		double d5 = 1.5 + 4.6;
+		double d6 =6.1;
+		String s1 = "yasri";
+		String s2 = "yasri";
+		
+		
+				
+		System.out.println(d1==d2);
+		System.out.println(d3==d4);
+		System.out.println(d5==d6);
+		System.out.println(s1==s2);
+		
+	}
+
+}
