@@ -1,0 +1,46 @@
+package mySwitch;
+import java.util.Scanner;
+public class switchTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int mark;
+		
+		Scanner scanMe = new Scanner (System.in);
+		
+		System.out.println("Enter your mark");
+		mark =scanMe.nextInt();
+		
+		switch (mark/10) {
+		
+		case 10:
+		case 9:
+            System.out.println("excellent :Grade A");
+            break;
+        case 8:
+        	System.out.println("Very Good :Grade B");
+            break;
+        case 7:
+            System.out.println("Good :Grade C");
+            break;
+        case 6:
+            System.out.println("Good :Grade D");
+            break;
+        case 5:
+            System.out.println("Just Passed :Grade E");
+            break;
+        case 4:
+            System.out.println("Try Hard:Grade F");
+            break;
+           default:
+        	   System.out.println("Below than this is fail");
+      
+		
+			 
+			 
+		
+		}
+		
+	}
+
+}
